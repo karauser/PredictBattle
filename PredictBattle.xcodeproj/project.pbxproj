@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		A5A69CD628AC2F6700DF31D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69CD528AC2F6700DF31D7 /* AppDelegate.swift */; };
 		A5A69CD828AC2F6700DF31D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69CD728AC2F6700DF31D7 /* SceneDelegate.swift */; };
-		A5A69CDA28AC2F6700DF31D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69CD928AC2F6700DF31D7 /* ViewController.swift */; };
-		A5A69CDD28AC2F6700DF31D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A69CDB28AC2F6700DF31D7 /* Main.storyboard */; };
 		A5A69CDF28AC2F6D00DF31D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A69CDE28AC2F6D00DF31D7 /* Assets.xcassets */; };
-		A5A69CE228AC2F6D00DF31D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A69CE028AC2F6D00DF31D7 /* LaunchScreen.storyboard */; };
+		A5A69CEE28AC33F600DF31D7 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69CED28AC33F600DF31D7 /* Colors.swift */; };
+		A5A69CF028AC342300DF31D7 /* Keyboard & TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69CEF28AC342300DF31D7 /* Keyboard & TextField.swift */; };
+		A5A69CF228AC349800DF31D7 /* NumberPadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69CF128AC349800DF31D7 /* NumberPadButton.swift */; };
+		A5A69CF428AC34D100DF31D7 /* ButtonStateColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69CF328AC34D100DF31D7 /* ButtonStateColorChange.swift */; };
+		A5A69CF628AC36B400DF31D7 /* BattleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69CF528AC36B400DF31D7 /* BattleConfiguration.swift */; };
+		A5A69CF828AC37CA00DF31D7 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69CF728AC37CA00DF31D7 /* Player.swift */; };
+		A5A69CFA28AC389B00DF31D7 /* NumberSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69CF928AC389B00DF31D7 /* NumberSymbol.swift */; };
+		A5A69CFC28AC399C00DF31D7 /* NewGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69CFB28AC399C00DF31D7 /* NewGameController.swift */; };
+		A5A69CFF28AC3A4B00DF31D7 /* NewGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69CFE28AC3A4B00DF31D7 /* NewGameView.swift */; };
+		A5A69D0228AC3B7300DF31D7 /* BattleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69D0128AC3B7300DF31D7 /* BattleButton.swift */; };
+		A5A69D0428AC3D2D00DF31D7 /* BattleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69D0328AC3D2D00DF31D7 /* BattleLabel.swift */; };
+		A5A69D0628AC3EA000DF31D7 /* SymbolTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69D0528AC3EA000DF31D7 /* SymbolTextField.swift */; };
+		A5A69D0828AC3F6C00DF31D7 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69D0728AC3F6C00DF31D7 /* AlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5A69CD228AC2F6700DF31D7 /* PredictBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PredictBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A69CD528AC2F6700DF31D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5A69CD728AC2F6700DF31D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5A69CD928AC2F6700DF31D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A5A69CDC28AC2F6700DF31D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5A69CDE28AC2F6D00DF31D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A5A69CE128AC2F6D00DF31D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5A69CE328AC2F6D00DF31D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A69CED28AC33F600DF31D7 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A5A69CEF28AC342300DF31D7 /* Keyboard & TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keyboard & TextField.swift"; sourceTree = "<group>"; };
+		A5A69CF128AC349800DF31D7 /* NumberPadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPadButton.swift; sourceTree = "<group>"; };
+		A5A69CF328AC34D100DF31D7 /* ButtonStateColorChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStateColorChange.swift; sourceTree = "<group>"; };
+		A5A69CF528AC36B400DF31D7 /* BattleConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleConfiguration.swift; sourceTree = "<group>"; };
+		A5A69CF728AC37CA00DF31D7 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A5A69CF928AC389B00DF31D7 /* NumberSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberSymbol.swift; sourceTree = "<group>"; };
+		A5A69CFB28AC399C00DF31D7 /* NewGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameController.swift; sourceTree = "<group>"; };
+		A5A69CFE28AC3A4B00DF31D7 /* NewGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameView.swift; sourceTree = "<group>"; };
+		A5A69D0128AC3B7300DF31D7 /* BattleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleButton.swift; sourceTree = "<group>"; };
+		A5A69D0328AC3D2D00DF31D7 /* BattleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleLabel.swift; sourceTree = "<group>"; };
+		A5A69D0528AC3EA000DF31D7 /* SymbolTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolTextField.swift; sourceTree = "<group>"; };
+		A5A69D0728AC3F6C00DF31D7 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,73 @@
 		A5A69CD428AC2F6700DF31D7 /* PredictBattle */ = {
 			isa = PBXGroup;
 			children = (
+				A5A69CE928AC332500DF31D7 /* Extensions */,
+				A5A69CEA28AC337400DF31D7 /* Models */,
+				A5A69CEB28AC339500DF31D7 /* Views */,
+				A5A69CEC28AC339C00DF31D7 /* ViewModels */,
+				A5A69CDE28AC2F6D00DF31D7 /* Assets.xcassets */,
 				A5A69CD528AC2F6700DF31D7 /* AppDelegate.swift */,
 				A5A69CD728AC2F6700DF31D7 /* SceneDelegate.swift */,
-				A5A69CD928AC2F6700DF31D7 /* ViewController.swift */,
-				A5A69CDB28AC2F6700DF31D7 /* Main.storyboard */,
-				A5A69CDE28AC2F6D00DF31D7 /* Assets.xcassets */,
-				A5A69CE028AC2F6D00DF31D7 /* LaunchScreen.storyboard */,
 				A5A69CE328AC2F6D00DF31D7 /* Info.plist */,
 			);
 			path = PredictBattle;
+			sourceTree = "<group>";
+		};
+		A5A69CE928AC332500DF31D7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A5A69CED28AC33F600DF31D7 /* Colors.swift */,
+				A5A69CEF28AC342300DF31D7 /* Keyboard & TextField.swift */,
+				A5A69CF128AC349800DF31D7 /* NumberPadButton.swift */,
+				A5A69CF328AC34D100DF31D7 /* ButtonStateColorChange.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A5A69CEA28AC337400DF31D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5A69CF528AC36B400DF31D7 /* BattleConfiguration.swift */,
+				A5A69CF728AC37CA00DF31D7 /* Player.swift */,
+				A5A69CF928AC389B00DF31D7 /* NumberSymbol.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5A69CEB28AC339500DF31D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5A69D0028AC3AFF00DF31D7 /* Snippets */,
+				A5A69CFD28AC39A500DF31D7 /* Controllers */,
+				A5A69CFB28AC399C00DF31D7 /* NewGameController.swift */,
+				A5A69CFE28AC3A4B00DF31D7 /* NewGameView.swift */,
+				A5A69D0728AC3F6C00DF31D7 /* AlertController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5A69CEC28AC339C00DF31D7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A5A69CFD28AC39A500DF31D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A5A69D0028AC3AFF00DF31D7 /* Snippets */ = {
+			isa = PBXGroup;
+			children = (
+				A5A69D0128AC3B7300DF31D7 /* BattleButton.swift */,
+				A5A69D0328AC3D2D00DF31D7 /* BattleLabel.swift */,
+				A5A69D0528AC3EA000DF31D7 /* SymbolTextField.swift */,
+			);
+			path = Snippets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A69CE228AC2F6D00DF31D7 /* LaunchScreen.storyboard in Resources */,
 				A5A69CDF28AC2F6D00DF31D7 /* Assets.xcassets in Resources */,
-				A5A69CDD28AC2F6700DF31D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +214,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A69CDA28AC2F6700DF31D7 /* ViewController.swift in Sources */,
 				A5A69CD628AC2F6700DF31D7 /* AppDelegate.swift in Sources */,
+				A5A69CF028AC342300DF31D7 /* Keyboard & TextField.swift in Sources */,
+				A5A69D0428AC3D2D00DF31D7 /* BattleLabel.swift in Sources */,
+				A5A69CFC28AC399C00DF31D7 /* NewGameController.swift in Sources */,
+				A5A69CF228AC349800DF31D7 /* NumberPadButton.swift in Sources */,
+				A5A69CFF28AC3A4B00DF31D7 /* NewGameView.swift in Sources */,
+				A5A69CF628AC36B400DF31D7 /* BattleConfiguration.swift in Sources */,
+				A5A69CF828AC37CA00DF31D7 /* Player.swift in Sources */,
+				A5A69D0828AC3F6C00DF31D7 /* AlertController.swift in Sources */,
+				A5A69CFA28AC389B00DF31D7 /* NumberSymbol.swift in Sources */,
+				A5A69CEE28AC33F600DF31D7 /* Colors.swift in Sources */,
+				A5A69D0228AC3B7300DF31D7 /* BattleButton.swift in Sources */,
+				A5A69D0628AC3EA000DF31D7 /* SymbolTextField.swift in Sources */,
 				A5A69CD828AC2F6700DF31D7 /* SceneDelegate.swift in Sources */,
+				A5A69CF428AC34D100DF31D7 /* ButtonStateColorChange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A5A69CDB28AC2F6700DF31D7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5A69CDC28AC2F6700DF31D7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A5A69CE028AC2F6D00DF31D7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5A69CE128AC2F6D00DF31D7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A5A69CE428AC2F6D00DF31D7 /* Debug */ = {
