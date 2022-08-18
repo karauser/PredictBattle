@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5A69DB428AE5BCC00DF31D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DB328AE5BCC00DF31D7 /* AppDelegate.swift */; };
+		A5A69DB628AE5BCC00DF31D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DB528AE5BCC00DF31D7 /* SceneDelegate.swift */; };
+		A5A69DBD28AE5BCE00DF31D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A69DBC28AE5BCE00DF31D7 /* Assets.xcassets */; };
+		A5A69DC928AE5C1600DF31D7 /* BattleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DC828AE5C1600DF31D7 /* BattleViewModel.swift */; };
+		A5A69DCE28AE5C2500DF31D7 /* BattleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DCB28AE5C2500DF31D7 /* BattleButton.swift */; };
+		A5A69DCF28AE5C2500DF31D7 /* BattleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DCC28AE5C2500DF31D7 /* BattleLabel.swift */; };
+		A5A69DD028AE5C2500DF31D7 /* NumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DCD28AE5C2500DF31D7 /* NumberTextField.swift */; };
+		A5A69DE728AE5C3300DF31D7 /* AIPredictNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DD228AE5C3300DF31D7 /* AIPredictNumberView.swift */; };
+		A5A69DE828AE5C3300DF31D7 /* StartBattleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DD328AE5C3300DF31D7 /* StartBattleView.swift */; };
+		A5A69DE928AE5C3300DF31D7 /* HumanEnterNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DD428AE5C3300DF31D7 /* HumanEnterNumberView.swift */; };
+		A5A69DEA28AE5C3300DF31D7 /* BattleResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DD528AE5C3300DF31D7 /* BattleResultsView.swift */; };
+		A5A69DEB28AE5C3300DF31D7 /* HumanPredictNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DD628AE5C3300DF31D7 /* HumanPredictNumberView.swift */; };
+		A5A69DEC28AE5C3300DF31D7 /* ButtonStateControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DD828AE5C3300DF31D7 /* ButtonStateControl.swift */; };
+		A5A69DED28AE5C3300DF31D7 /* Keyboard & TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DD928AE5C3300DF31D7 /* Keyboard & TextField.swift */; };
+		A5A69DEE28AE5C3300DF31D7 /* ButtonStateColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DDA28AE5C3300DF31D7 /* ButtonStateColorChange.swift */; };
+		A5A69DEF28AE5C3300DF31D7 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DDB28AE5C3300DF31D7 /* Colors.swift */; };
+		A5A69DF028AE5C3300DF31D7 /* HumanPredictNumberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DDD28AE5C3300DF31D7 /* HumanPredictNumberController.swift */; };
+		A5A69DF128AE5C3300DF31D7 /* AIPredictNumberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DDE28AE5C3300DF31D7 /* AIPredictNumberController.swift */; };
+		A5A69DF228AE5C3300DF31D7 /* HumanEnterNumberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DDF28AE5C3300DF31D7 /* HumanEnterNumberController.swift */; };
+		A5A69DF328AE5C3300DF31D7 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DE028AE5C3300DF31D7 /* AlertController.swift */; };
+		A5A69DF428AE5C3300DF31D7 /* BattleResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DE128AE5C3300DF31D7 /* BattleResultsController.swift */; };
+		A5A69DF528AE5C3300DF31D7 /* StartBattleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DE228AE5C3300DF31D7 /* StartBattleController.swift */; };
+		A5A69DF628AE5C3300DF31D7 /* NumberSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DE428AE5C3300DF31D7 /* NumberSymbol.swift */; };
+		A5A69DF728AE5C3300DF31D7 /* BattleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DE528AE5C3300DF31D7 /* BattleConfiguration.swift */; };
+		A5A69DF828AE5C3300DF31D7 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DE628AE5C3300DF31D7 /* Player.swift */; };
+		A5A69DFE28AE9CDA00DF31D7 /* CompareButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A69DFD28AE9CDA00DF31D7 /* CompareButtons.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5A69DB028AE5BCC00DF31D7 /* NumberPredictionBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberPredictionBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A69DB328AE5BCC00DF31D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5A69DB528AE5BCC00DF31D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A5A69DBC28AE5BCE00DF31D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5A69DC128AE5BCE00DF31D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A69DC828AE5C1600DF31D7 /* BattleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleViewModel.swift; sourceTree = "<group>"; };
+		A5A69DCB28AE5C2500DF31D7 /* BattleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleButton.swift; sourceTree = "<group>"; };
+		A5A69DCC28AE5C2500DF31D7 /* BattleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleLabel.swift; sourceTree = "<group>"; };
+		A5A69DCD28AE5C2500DF31D7 /* NumberTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberTextField.swift; sourceTree = "<group>"; };
+		A5A69DD228AE5C3300DF31D7 /* AIPredictNumberView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIPredictNumberView.swift; sourceTree = "<group>"; };
+		A5A69DD328AE5C3300DF31D7 /* StartBattleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartBattleView.swift; sourceTree = "<group>"; };
+		A5A69DD428AE5C3300DF31D7 /* HumanEnterNumberView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanEnterNumberView.swift; sourceTree = "<group>"; };
+		A5A69DD528AE5C3300DF31D7 /* BattleResultsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleResultsView.swift; sourceTree = "<group>"; };
+		A5A69DD628AE5C3300DF31D7 /* HumanPredictNumberView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanPredictNumberView.swift; sourceTree = "<group>"; };
+		A5A69DD828AE5C3300DF31D7 /* ButtonStateControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStateControl.swift; sourceTree = "<group>"; };
+		A5A69DD928AE5C3300DF31D7 /* Keyboard & TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Keyboard & TextField.swift"; sourceTree = "<group>"; };
+		A5A69DDA28AE5C3300DF31D7 /* ButtonStateColorChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStateColorChange.swift; sourceTree = "<group>"; };
+		A5A69DDB28AE5C3300DF31D7 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A5A69DDD28AE5C3300DF31D7 /* HumanPredictNumberController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanPredictNumberController.swift; sourceTree = "<group>"; };
+		A5A69DDE28AE5C3300DF31D7 /* AIPredictNumberController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIPredictNumberController.swift; sourceTree = "<group>"; };
+		A5A69DDF28AE5C3300DF31D7 /* HumanEnterNumberController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanEnterNumberController.swift; sourceTree = "<group>"; };
+		A5A69DE028AE5C3300DF31D7 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		A5A69DE128AE5C3300DF31D7 /* BattleResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleResultsController.swift; sourceTree = "<group>"; };
+		A5A69DE228AE5C3300DF31D7 /* StartBattleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartBattleController.swift; sourceTree = "<group>"; };
+		A5A69DE428AE5C3300DF31D7 /* NumberSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberSymbol.swift; sourceTree = "<group>"; };
+		A5A69DE528AE5C3300DF31D7 /* BattleConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleConfiguration.swift; sourceTree = "<group>"; };
+		A5A69DE628AE5C3300DF31D7 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A5A69DFD28AE9CDA00DF31D7 /* CompareButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompareButtons.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5A69DAD28AE5BCC00DF31D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5A69DA728AE5BCC00DF31D7 = {
+			isa = PBXGroup;
+			children = (
+				A5A69DB228AE5BCC00DF31D7 /* NumberPredictionBattle */,
+				A5A69DB128AE5BCC00DF31D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5A69DB128AE5BCC00DF31D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A69DB028AE5BCC00DF31D7 /* NumberPredictionBattle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A69DB228AE5BCC00DF31D7 /* NumberPredictionBattle */ = {
+			isa = PBXGroup;
+			children = (
+				A5A69DB328AE5BCC00DF31D7 /* AppDelegate.swift */,
+				A5A69DB528AE5BCC00DF31D7 /* SceneDelegate.swift */,
+				A5A69DBC28AE5BCE00DF31D7 /* Assets.xcassets */,
+				A5A69DC128AE5BCE00DF31D7 /* Info.plist */,
+				A5A69DE328AE5C3300DF31D7 /* Models */,
+				A5A69DD128AE5C3300DF31D7 /* Views */,
+				A5A69DC728AE5C1600DF31D7 /* ViewModels */,
+				A5A69DD728AE5C3300DF31D7 /* Extensions */,
+				A5A69DCA28AE5C2400DF31D7 /* Snippets */,
+			);
+			path = NumberPredictionBattle;
+			sourceTree = "<group>";
+		};
+		A5A69DC728AE5C1600DF31D7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A5A69DC828AE5C1600DF31D7 /* BattleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A5A69DCA28AE5C2400DF31D7 /* Snippets */ = {
+			isa = PBXGroup;
+			children = (
+				A5A69DCB28AE5C2500DF31D7 /* BattleButton.swift */,
+				A5A69DCC28AE5C2500DF31D7 /* BattleLabel.swift */,
+				A5A69DCD28AE5C2500DF31D7 /* NumberTextField.swift */,
+				A5A69DFD28AE9CDA00DF31D7 /* CompareButtons.swift */,
+			);
+			path = Snippets;
+			sourceTree = "<group>";
+		};
+		A5A69DD128AE5C3300DF31D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5A69DDC28AE5C3300DF31D7 /* Controllers */,
+				A5A69DD328AE5C3300DF31D7 /* StartBattleView.swift */,
+				A5A69DD428AE5C3300DF31D7 /* HumanEnterNumberView.swift */,
+				A5A69DD228AE5C3300DF31D7 /* AIPredictNumberView.swift */,
+				A5A69DD628AE5C3300DF31D7 /* HumanPredictNumberView.swift */,
+				A5A69DD528AE5C3300DF31D7 /* BattleResultsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5A69DD728AE5C3300DF31D7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A5A69DD828AE5C3300DF31D7 /* ButtonStateControl.swift */,
+				A5A69DD928AE5C3300DF31D7 /* Keyboard & TextField.swift */,
+				A5A69DDA28AE5C3300DF31D7 /* ButtonStateColorChange.swift */,
+				A5A69DDB28AE5C3300DF31D7 /* Colors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A5A69DDC28AE5C3300DF31D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5A69DE228AE5C3300DF31D7 /* StartBattleController.swift */,
+				A5A69DDF28AE5C3300DF31D7 /* HumanEnterNumberController.swift */,
+				A5A69DDD28AE5C3300DF31D7 /* HumanPredictNumberController.swift */,
+				A5A69DDE28AE5C3300DF31D7 /* AIPredictNumberController.swift */,
+				A5A69DE128AE5C3300DF31D7 /* BattleResultsController.swift */,
+				A5A69DE028AE5C3300DF31D7 /* AlertController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A5A69DE328AE5C3300DF31D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5A69DE428AE5C3300DF31D7 /* NumberSymbol.swift */,
+				A5A69DE528AE5C3300DF31D7 /* BattleConfiguration.swift */,
+				A5A69DE628AE5C3300DF31D7 /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5A69DAF28AE5BCC00DF31D7 /* NumberPredictionBattle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A69DC428AE5BCE00DF31D7 /* Build configuration list for PBXNativeTarget "NumberPredictionBattle" */;
+			buildPhases = (
+				A5A69DAC28AE5BCC00DF31D7 /* Sources */,
+				A5A69DAD28AE5BCC00DF31D7 /* Frameworks */,
+				A5A69DAE28AE5BCC00DF31D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberPredictionBattle;
+			productName = NumberPredictionBattle;
+			productReference = A5A69DB028AE5BCC00DF31D7 /* NumberPredictionBattle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5A69DA828AE5BCC00DF31D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A5A69DAF28AE5BCC00DF31D7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A5A69DAB28AE5BCC00DF31D7 /* Build configuration list for PBXProject "NumberPredictionBattle" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5A69DA728AE5BCC00DF31D7;
+			productRefGroup = A5A69DB128AE5BCC00DF31D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5A69DAF28AE5BCC00DF31D7 /* NumberPredictionBattle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5A69DAE28AE5BCC00DF31D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A69DBD28AE5BCE00DF31D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5A69DAC28AE5BCC00DF31D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A69DC928AE5C1600DF31D7 /* BattleViewModel.swift in Sources */,
+				A5A69DE828AE5C3300DF31D7 /* StartBattleView.swift in Sources */,
+				A5A69DEC28AE5C3300DF31D7 /* ButtonStateControl.swift in Sources */,
+				A5A69DD028AE5C2500DF31D7 /* NumberTextField.swift in Sources */,
+				A5A69DF228AE5C3300DF31D7 /* HumanEnterNumberController.swift in Sources */,
+				A5A69DF528AE5C3300DF31D7 /* StartBattleController.swift in Sources */,
+				A5A69DE928AE5C3300DF31D7 /* HumanEnterNumberView.swift in Sources */,
+				A5A69DF128AE5C3300DF31D7 /* AIPredictNumberController.swift in Sources */,
+				A5A69DCF28AE5C2500DF31D7 /* BattleLabel.swift in Sources */,
+				A5A69DF628AE5C3300DF31D7 /* NumberSymbol.swift in Sources */,
+				A5A69DFE28AE9CDA00DF31D7 /* CompareButtons.swift in Sources */,
+				A5A69DB428AE5BCC00DF31D7 /* AppDelegate.swift in Sources */,
+				A5A69DEB28AE5C3300DF31D7 /* HumanPredictNumberView.swift in Sources */,
+				A5A69DEF28AE5C3300DF31D7 /* Colors.swift in Sources */,
+				A5A69DE728AE5C3300DF31D7 /* AIPredictNumberView.swift in Sources */,
+				A5A69DEA28AE5C3300DF31D7 /* BattleResultsView.swift in Sources */,
+				A5A69DF728AE5C3300DF31D7 /* BattleConfiguration.swift in Sources */,
+				A5A69DCE28AE5C2500DF31D7 /* BattleButton.swift in Sources */,
+				A5A69DF828AE5C3300DF31D7 /* Player.swift in Sources */,
+				A5A69DB628AE5BCC00DF31D7 /* SceneDelegate.swift in Sources */,
+				A5A69DF328AE5C3300DF31D7 /* AlertController.swift in Sources */,
+				A5A69DED28AE5C3300DF31D7 /* Keyboard & TextField.swift in Sources */,
+				A5A69DF428AE5C3300DF31D7 /* BattleResultsController.swift in Sources */,
+				A5A69DF028AE5C3300DF31D7 /* HumanPredictNumberController.swift in Sources */,
+				A5A69DEE28AE5C3300DF31D7 /* ButtonStateColorChange.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5A69DC228AE5BCE00DF31D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5A69DC328AE5BCE00DF31D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5A69DC528AE5BCE00DF31D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8H54D2ZMF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NumberPredictionBattle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sergey-Karavaev.NumberPredictionBattle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5A69DC628AE5BCE00DF31D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8H54D2ZMF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NumberPredictionBattle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sergey-Karavaev.NumberPredictionBattle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5A69DAB28AE5BCC00DF31D7 /* Build configuration list for PBXProject "NumberPredictionBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A69DC228AE5BCE00DF31D7 /* Debug */,
+				A5A69DC328AE5BCE00DF31D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A69DC428AE5BCE00DF31D7 /* Build configuration list for PBXNativeTarget "NumberPredictionBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A69DC528AE5BCE00DF31D7 /* Debug */,
+				A5A69DC628AE5BCE00DF31D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5A69DA828AE5BCC00DF31D7 /* Project object */;
+}
