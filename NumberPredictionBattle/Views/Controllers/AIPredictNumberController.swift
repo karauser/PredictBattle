@@ -26,7 +26,7 @@ class AIPredictNumberController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+      
         setupBindings()
         
         viewModel.game.ai.number = viewModel.generateRandomNumber()

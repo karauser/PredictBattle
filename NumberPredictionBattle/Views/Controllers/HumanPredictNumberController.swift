@@ -27,6 +27,7 @@ class HumanPredictNumberController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         setupBindings()
         
         humanNumberPredictionView.numberPredictionButton.addTarget(

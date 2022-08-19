@@ -82,7 +82,7 @@ class ComputerGuessesNumberView: UIView {
             computerGuessesLabel.topAnchor.constraint(equalTo: numberOfGuessesLabel.bottomAnchor, constant: 10),
             
             guessesLabel.centerXAnchor.constraint(equalTo: safeAreaLayoutGuide.centerXAnchor),
-            guessesLabel.topAnchor.constraint(equalTo: computerGuessesLabel.bottomAnchor, constant: 90),
+            guessesLabel.topAnchor.constraint(equalTo: computerGuessesLabel.bottomAnchor, constant: UIScreen.main.bounds.height / 10),
             
             numberIsLabel.centerXAnchor.constraint(equalTo: safeAreaLayoutGuide.centerXAnchor),
             numberIsLabel.widthAnchor.constraint(equalTo: buttonsStackView.widthAnchor),

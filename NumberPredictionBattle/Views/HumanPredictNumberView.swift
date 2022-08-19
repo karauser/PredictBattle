@@ -51,7 +51,8 @@ class HumanPredictNumberView: UIView {
             numberPredictionTextField.centerXAnchor.constraint(equalTo: safeAreaLayoutGuide.centerXAnchor),
             numberPredictionTextField.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 20),
             numberPredictionTextField.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -20),
-            numberPredictionTextField.bottomAnchor.constraint(equalTo: numberPredictionButton.topAnchor, constant: -20),
+            numberPredictionTextField.bottomAnchor.constraint(equalTo: numberPredictionButton.topAnchor, constant: -UIScreen.main.bounds.height / 30),
+            
             
             numberPredictionButton.heightAnchor.constraint(equalToConstant: 48),
             numberPredictionButton.centerXAnchor.constraint(equalTo: safeAreaLayoutGuide.centerXAnchor),

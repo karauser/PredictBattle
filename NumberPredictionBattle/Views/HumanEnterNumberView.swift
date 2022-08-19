@@ -35,12 +35,15 @@ class HumanEnterNumberView: UIView {
     }
     
     private func setupConstraints() {
+        
+        
+        
         NSLayoutConstraint.activate([
             predictNumberTextField.centerXAnchor.constraint(equalTo: safeAreaLayoutGuide.centerXAnchor),
-            predictNumberTextField.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 200),
+            predictNumberTextField.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: UIScreen.main.bounds.height / 4),
             predictNumberTextField.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 20),
             predictNumberTextField.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -20),
-            predictNumberTextField.bottomAnchor.constraint(lessThanOrEqualTo: humanEnterNumberButton.topAnchor),
+            predictNumberTextField.bottomAnchor.constraint(lessThanOrEqualTo: humanEnterNumberButton.topAnchor, constant: 50),
                         
             humanEnterNumberButton.heightAnchor.constraint(equalToConstant: 48),
             humanEnterNumberButton.centerXAnchor.constraint(equalTo: safeAreaLayoutGuide.centerXAnchor),
