@@ -38,7 +38,7 @@ class BattleViewModel {
                 game.minimumNumber = game.ai.number
                 game.ai.attemptsCount += 1
                 let number = aiBinarySearch()
-                game.ai.number = number
+                game.ai.number = number + 1
             case .less:
                 game.maximumNumber = game.ai.number
                 game.ai.attemptsCount += 1
